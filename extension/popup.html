@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabSync</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="brand">
+        <span class="brand-icon">⇄</span>
+        <h1>TabSync</h1>
+      </div>
+      <span id="tab-count"></span>
+    </header>
+
+    <main>
+      <div class="toggle-section">
+        <div class="toggle-label">
+          <span class="toggle-title">Share tabs</span>
+          <span class="toggle-desc" id="toggle-desc">Off</span>
+        </div>
+        <button id="share-toggle" class="pill-toggle" aria-pressed="false">
+          <span class="pill-thumb"></span>
+        </button>
+      </div>
+
+      <div id="share-panel" class="share-panel hidden">
+        <img id="qr-code" class="qr-img" alt="QR Code" />
+        <div class="code-block">
+          <span class="code-label">Share code</span>
+          <p id="share-code" class="share-code-text"></p>
+        </div>
+        <p class="share-hint">Scan the QR or visit <strong>tabbridge.pages.dev</strong> and enter the code</p>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+packages:
+  - extension
+  - worker
+  - web
+  - mobile
+
+nodeLinker: hoisted

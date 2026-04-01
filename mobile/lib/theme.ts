@@ -1,0 +1,15 @@
+export const colors = {
+  base: '#1e1e2e',
+  mantle: '#181825',
+  crust: '#11111b',
+  surface0: '#313244',
+  surface1: '#45475a',
+  overlay0: '#6c7086',
+  overlay1: '#7f849c',
+  text: '#cdd6f4',
+  subtext: '#a6adc8',
+  mauve: '#cba6f7',
+  green: '#a6e3a1',
+  red: '#f38ba8',
+  border: '#313244',
+}

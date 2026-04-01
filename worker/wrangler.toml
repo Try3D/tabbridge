@@ -1,0 +1,12 @@
+name = "tabsync-worker"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tabsync"
+database_id = "f42a341a-5167-493c-9d9a-bab1ef7c4efa"
+
+[vars]
+ALLOWED_ORIGIN = "https://tabbridge.pages.dev"

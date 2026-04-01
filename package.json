@@ -1,0 +1,13 @@
+{
+  "name": "tabsync",
+  "private": true,
+  "packageManager": "pnpm@10.18.2",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "deploy": "turbo deploy"
+  },
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}
