@@ -181,6 +181,10 @@ export default {
 
     const path = url.pathname;
 
+    if (path === "/ping") {
+      return json({ status: "ok" }, 200, cors);
+    }
+
     if (request.method === "POST" && path === "/sessions") {
       return handleCreate(request, env, cors);
     }
